@@ -308,7 +308,8 @@ footer p:nth-child(2){
     color: #000000;
 }
 
-.social-icons a:hover{
+.social-icons a:hover,
+.a-social-b a:hover{
     background-color: #000000;
 
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
@@ -333,8 +334,11 @@ footer p:nth-child(2){
     padding: 0px;
     margin: 0px;
     line-height: 0px;
-    background-color:whitesmoke;
+    background-color:white;
     border: 1px solid #cbcbcb;
     box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
-
+}
+.a-social-b i{
+    color:#383737;
+    font-size: 20px;
 }
